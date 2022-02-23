@@ -13,8 +13,16 @@ To build and run in docker, the following scripts can be used.
 ./run-in-docker.sh
 ./run-tests-in-docker.sh
 ```
+### Windows - Native in Visual Studio Code (Community)
 
-### Linux
+Should work with Visual Studio Code Community edition, with Git for Windows installed.
+1. Clone the project in Visual Studio Comminuty.
+2. Allow CMake to confgure.
+3. Select run target. Configure run parameter for input file.
+4. Run.
+
+
+### Linux (Or WSL)
 
 ```
 ./build.sh
